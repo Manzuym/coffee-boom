@@ -1,0 +1,122 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+    body {
+        font-family: Arial, sans-serif;
+        background-image: url('phonboom.jpg');
+        background-size: cover; /* Автоматическое изменение размера изображения для заполнения всей области */
+        background-position: center; /* Центрирование изображения на заднем фоне */
+        background-repeat: no-repeat; /* Запрет повторения изображения */
+    }
+    /* Другие стили здесь */
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Boom</title>
+    <!-- Внешние стили CSS могут быть добавлены здесь -->
+    <style>
+        /* Стили для примера */
+        body {
+            font-family: Arial, sans-serif;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+        }
+        nav {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 200px;
+            height: 100vh;
+            background-color: #444;
+            padding: 20px;
+            z-index: 1000;
+        }
+        nav.active {
+            display: block;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            display: block;
+            padding: 10px 0;
+        }
+        main {
+            padding: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+#models li a {
+    color: #660066; /* Красный цвет текста для ссылок в списке моделей */
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Добро пожаловать в Coffee Boom</h1>
+        <button id="menu-toggle">Menu</button>
+    </header>
+    <nav id="side-menu">
+        <a href="file:///C:/Users/Miras/Desktop/coffee.Manzu/company.html">О компании</a>
+        <a href="file:///C:/Users/Miras/Desktop/coffee.Manzu/mmm.html">Наши кофейни</a>
+    </nav>
+    <main>
+        <section id="models">
+            <h2>Біздің мәзір</h2>
+            <ul>
+                 <li><a href="file:///C:/Users/Miras/Desktop/coffee.Manzu/breakfast.html">Таңғы ас</a></li>
+<p></p>
+                <li><a href="file:///C:/Users/Miras/Desktop/coffee.Manzu/zakuski.html#paint-work-cleaner">Тағамдар</a> </li>
+<p></p>
+                <li><a href="file:///C:/Users/Miras/Desktop/coffee.Manzu/salaty.html">Салат түрлері</a></li>
+<p></p>     
+                <li><a href="file:///C:/Users/Miras/Desktop/coffee.Manzu/fastfood.html">Фаст Фуд</a></li>
+<p></p>
+                <li><a href="file:///C:/Users/Miras/Desktop/coffee.Manzu/bar.html">Бар меню</a></li>
+<p></p>  
+                
+                <!-- Добавьте описания и изображения моделей по мере необходимости -->
+            </ul>
+        </section>
+        <section id="services">
+            <h2>Қызметтер</h2>
+            <li>Франшиза</li>
+            <p></p>
+            <li>Жарнама берушілерге</li>
+            <p></p>
+            <li>Мерч</li>
+            <p></p>
+        </section>
+        <section id="contact">
+            <h2>Байланыс</h2>
+            <p>Номер телефона: +7 747-870-09-15</p>
+            <p>Email: manzura.ospanova: info@coffeeboom.mo</p>
+            <!-- Добавьте форму обратной связи по желанию -->
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 'Coffee Boom' Kazakhstan</p>
+    </footer>
+    <!-- JavaScript для обработки клика по кнопке меню -->
+    <script>
+        const menuToggle = document.getElementById('menu-toggle');
+        const sideMenu = document.getElementById('side-menu');
+
+        menuToggle.addEventListener('click', function() {
+            sideMenu.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
